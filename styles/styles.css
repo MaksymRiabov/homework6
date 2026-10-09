@@ -39,14 +39,21 @@ thead {
   background-color: #e6cdb6e7;
 }
 
-th,
-td {
-  border: solid 2px black;
+th {
   text-align: center;
 }
 
-.jump-length {
-  text-align: left;
+th,
+td {
+  border: solid 2px black;
+}
+
+.no-border-top {
+  border-top: none;
+}
+
+.no-border-bottom {
+  border-bottom: none;
 }
 
 .index-main-section {
